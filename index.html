@@ -3,7 +3,7 @@
 </head>
 
 <body>
-	<form name="myform" method="get">
+	<form name="myform" method="post">
 		<input type="submit" value="Set Cookie" onclick="WriteCookie();" />
 	</form>
 </body>
@@ -31,7 +31,7 @@
 			console.log("YES");
 		}
 		else {
-			console.log("NO");
+			document.write("<bold>test</bold>");
 		}
 	}
 	ReadCookie();
